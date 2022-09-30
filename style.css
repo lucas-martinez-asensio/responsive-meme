@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #f5d7e3;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  width: 100%;
+  height: 5rem;
+  background-color: #00cfad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Indie Flower", cursive;
+  color: #fff;
+  text-shadow: 0 0 5px rgb(3, 255, 116), 0 0 10px rgba(3, 255, 116),
+    0 0 20px rgba(3, 255, 116), 0 0 40px rgb(38, 127, 82),
+    0 0 80px rgba(38, 127, 82), 0 0 90px rgba(38, 127, 82),
+    0 0 100px rgba(38, 127, 82), 0 0 140px rgba(38, 127, 82),
+    0 0 180px rgba(38, 127, 82);
+}
+
+.c4 {
+  /* width: 100%;
+  min-width: 150px; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.c2,
+.c3,
+.c6,
+.c7 {
+  width: 100%;
+  min-width: 150px;
+  height: 20rem;
+  height: auto;
+  justify-content: space-around;
+  /* margin: auto; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container figcaption {
+  font-size: 2.5rem;
+  align-items: center;
+  /* justify-content: center; */
+  /* margin: 0 auto; */
+  font-family: "Indie Flower", cursive;
+  color: rgb(9, 85, 47);
+}
+
+.esquizo {
+  border: rgb(9, 85, 47) solid 0.5rem;
+  border-radius: 1rem;
+  width: 14rem;
+}
+
+.aestethic {
+  border: rgb(9, 85, 47) solid 0.5rem;
+  border-radius: 1rem;
+  width: 14rem;
+}
+
+.onichi {
+  border: rgb(9, 85, 47) solid 0.5rem;
+  border-radius: 1rem;
+  width: 13.5rem;
+}
+
+.enamorado {
+  border: rgb(9, 85, 47) solid 0.5rem;
+  border-radius: 1rem;
+  width: 13rem;
+}
+
+.c1 {
+  background-color: #ec84b0;
+  width: 100%;
+  min-width: 150px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.c2 {
+  background-color: #cc7398;
+}
+
+.c3 {
+  background-color: #00cf6e;
+}
+
+.c6 {
+  background-color: #00cf6e;
+}
+
+.c7 {
+  background-color: #cc7398;
+}
+
+.c4 {
+  /* border-left: solid #ec84af85;
+  border-right: solid #ec84af85; */
+  background-color: #18181800;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.c5 {
+  background-color: #bfe41e;
+  width: 100vw;
+  order: 2;
+}
+
+.c1 h2 {
+  font-size: 2.5rem;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: "Indie Flower", cursive;
+  color: rgb(9, 85, 47);
+}
+
+.c5 h2 {
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  font-family: "Indie Flower", cursive;
+  color: rgb(9, 85, 47);
+}
+
+.c1 section {
+  justify-content: space-around;
+  /* margin: auto; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.c1 figcaption {
+  font-size: 2.5rem;
+  align-items: center;
+  /* justify-content: center; */
+  /* margin: 0 auto; */
+  font-family: "Indie Flower", cursive;
+  color: rgb(9, 85, 47);
+}
+
+.protagonizando-nina {
+  border: rgb(9, 85, 47) solid 0.5rem;
+  border-radius: 1rem;
+  width: 9.8rem;
+  /* min-width: 20%; */
+  /* min-height: 15vh; */
+  /* width: 10vw;
+  height: 20vh; */
+}
+
+.protagonizando-michi {
+  border: rgb(9, 85, 47) solid 0.5rem;
+  border-radius: 1rem;
+  width: 10rem;
+  /* height: 20vh;
+  min-width: 10vw;
+  min-height: 20vh; */
+}
+
+@media (min-width: 600px) {
+  .c1 {
+    width: 25%;
+  }
+  .c4 {
+    width: 75%;
+  }
+  .c5 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 820px) {
+  .container {
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container .c1 {
+    min-width: auto;
+    width: 100%;
+    order: 1;
+  }
+  .c4 {
+    width: 100%;
+  }
+  .c2,
+  .c3,
+  .c6,
+  .c7 {
+    width: 50%;
+  }
+  .c2 {
+    order: 1;
+  }
+  .c3 {
+    order: 2;
+  }
+  .c7 {
+    order: 4;
+  }
+  .c6 {
+    order: 3;
+  }
+  .container .c5 {
+    min-width: auto;
+    /* width: 100vw; */
+  }
+}
